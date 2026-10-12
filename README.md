@@ -1,6 +1,6 @@
 # Hajime Shimao — academic homepage
 
-This repository contains the static source for Hajime Shimao's academic homepage.
+This repository contains the static source for Hajime Shimao's academic homepage. The site intentionally uses a plain, single-page format similar to the former Google Site.
 
 ## Publishing with GitHub Pages
 
