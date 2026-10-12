@@ -64,6 +64,21 @@ h2 {
 
 p { max-width: 780px; margin: 0 0 14px; }
 
+.home-profile {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  align-items: start;
+  gap: 22px;
+  max-width: 800px;
+}
+
+.profile-photo {
+  display: block;
+  width: 210px;
+  height: auto;
+  border: 1px solid var(--line);
+}
+
 ul { max-width: 800px; margin: 0 0 14px; padding-left: 22px; }
 li { margin-bottom: 9px; }
 
@@ -83,4 +98,6 @@ footer {
   .site-header { padding-top: 23px; }
   h1 { font-size: 28px; }
   nav a { padding-right: 13px; }
+  .home-profile { grid-template-columns: 1fr; }
+  .profile-photo { width: min(210px, 100%); }
 }
