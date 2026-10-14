@@ -79,7 +79,7 @@ p { max-width: 780px; margin: 0 0 14px; }
   border: 1px solid var(--line);
 }
 
-ul { max-width: 800px; margin: 0 0 14px; padding-left: 22px; }
+ul, ol { max-width: 800px; margin: 0 0 14px; padding-left: 22px; }
 li { margin-bottom: 9px; }
 
 a { color: var(--link); }
